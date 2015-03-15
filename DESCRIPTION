@@ -1,0 +1,11 @@
+Package: passtime
+Title: Power and Sample Size for Time Course Microarray Experiments
+Version: 0.0.0.9000
+Authors@R: person("Joanne", "Beer", , "joannecbeer@gmail.com", role = c("aut", "cre"))
+Description: The passtime package does power and sample size analysis 
+    for time course microarray differential expression experimental designs 
+    via Monte Carlo simulations. Uses R package snowfall for parallel computing.
+Suggests: snowfall
+Depends: R (>= 3.0)
+License: MIT + file LICENSE
+LazyData: true
